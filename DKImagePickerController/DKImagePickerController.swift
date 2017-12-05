@@ -235,7 +235,7 @@ open class DKImagePickerController : UINavigationController {
         }
     }
     
-    open private(set) var selectedAssets = [DKAsset]()
+    open var selectedAssets = [DKAsset]()
     
     static private var imagePickerControllerReferenceCount = 0
     public convenience init() {
